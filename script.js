@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const info = document.createElement("div");
-    info.id = "browser-info";
+    
     info.innerText = "DOM load success";
 
     document.body.innerHTML = ''; 
